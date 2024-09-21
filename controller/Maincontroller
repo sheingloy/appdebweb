@@ -1,0 +1,34 @@
+const pal={
+    index:(req, res)=>{
+        res.render('index');
+    },
+    about:(req, res)=>{
+        res.render('about');
+    },
+    blog:(req, res)=>{
+        res.render('blog');
+    },
+    causes:(req, res)=>{
+        res.render('causes');
+    },
+    contact:(req, res)=>{
+        res.render('contact');
+    },
+    donation:(req, res)=>{
+        res.render('donation');
+    },
+    event:(req, res)=>{
+        res.render('event');
+    },
+    projects:(req, res)=>{
+        res.render('projects');
+    },
+    shop:(req, res)=>{
+        res.render('shop');
+    },
+    team:(req, res)=>{
+        res.render('team');
+    },
+}
+
+module.exports = pal;
